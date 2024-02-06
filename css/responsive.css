@@ -189,6 +189,11 @@
 
 
  @media screen and (max-width: 780px) {
+
+.mt-35 {
+	margin-top: 35px;
+}
+
 .banner-text {
 	padding-top: 25%;
 	text-align: center;
@@ -252,9 +257,8 @@
 	 }
 	 
 	 .deg-r-line {
-		 
-    top: -7rem;
-    right: -11rem;
+    top: -10rem;
+    right: -14rem;
 }
 	 
 	 .work-main-title h1 {
@@ -263,8 +267,10 @@
 	 .work-web-view-right {
     position: relative;
     left: 0rem;
-    text-align: center;
-    top: 3rem;
+    text-align: left;
+    top: 2rem;
+		padding-left: 15px;
+		padding-right: 15px;
 }
 	 .work-info-view {
     margin-top: 2rem;
@@ -277,9 +283,11 @@
     display: none;
 }
 	 .work-web-view-left {
-    text-align: center;
+    text-align: left;
     position: relative;
     right: 0rem;
+		padding-left: 15px;
+		padding-right: 15px;
 	 }
 	 .right-slide-tag {
     display: none;
